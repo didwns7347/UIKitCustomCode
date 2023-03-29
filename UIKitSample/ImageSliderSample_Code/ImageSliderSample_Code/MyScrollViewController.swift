@@ -32,13 +32,13 @@ class MyScrollViewController : UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .yellow
+        self.view.backgroundColor = .white
           self.view.addSubview(scrollView)
 
-          scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
-          scrollView.topAnchor.constraint(equalTo: view.topAnchor, constant: 20).isActive = true
-          scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
-          scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -20).isActive = true
+        scrollView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20).isActive = true
+        scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20).isActive = true
+        scrollView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20).isActive = true
+        scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20).isActive = true
 
           scrollView.addSubview(labelOne)
 

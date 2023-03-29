@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		9B79ACB129D3B9E500D6B1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */; };
 		9B79ACB329D3B9E500D6B1B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */; };
-		9B79ACB529D3B9E500D6B1B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB429D3B9E500D6B1B2 /* ViewController.swift */; };
+		9B79ACB529D3B9E500D6B1B2 /* ImageSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB429D3B9E500D6B1B2 /* ImageSliderViewController.swift */; };
 		9B79ACBA29D3B9E500D6B1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B79ACB929D3B9E500D6B1B2 /* Assets.xcassets */; };
 		9B79ACBD29D3B9E500D6B1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B79ACBB29D3B9E500D6B1B2 /* LaunchScreen.storyboard */; };
 		9B79ACC529D3BAC600D6B1B2 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACC429D3BAC600D6B1B2 /* ImageSliderView.swift */; };
 		9B79ACC729D3D60400D6B1B2 /* MyScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */; };
+		9B79ACCA29D3FC4400D6B1B2 /* SelectUISampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B79ACAD29D3B9E500D6B1B2 /* ImageSliderSample_Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSliderSample_Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B79ACB429D3B9E500D6B1B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B79ACB429D3B9E500D6B1B2 /* ImageSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderViewController.swift; sourceTree = "<group>"; };
 		9B79ACB929D3B9E500D6B1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B79ACBC29D3B9E500D6B1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B79ACBE29D3B9E500D6B1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B79ACC429D3BAC600D6B1B2 /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 		9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewController.swift; sourceTree = "<group>"; };
+		9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUISampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */,
 				9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */,
-				9B79ACB429D3B9E500D6B1B2 /* ViewController.swift */,
+				9B79ACB429D3B9E500D6B1B2 /* ImageSliderViewController.swift */,
 				9B79ACC429D3BAC600D6B1B2 /* ImageSliderView.swift */,
 				9B79ACB929D3B9E500D6B1B2 /* Assets.xcassets */,
 				9B79ACBB29D3B9E500D6B1B2 /* LaunchScreen.storyboard */,
 				9B79ACBE29D3B9E500D6B1B2 /* Info.plist */,
 				9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */,
+				9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */,
 			);
 			path = ImageSliderSample_Code;
 			sourceTree = "<group>";
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B79ACB529D3B9E500D6B1B2 /* ViewController.swift in Sources */,
+				9B79ACCA29D3FC4400D6B1B2 /* SelectUISampleViewController.swift in Sources */,
+				9B79ACB529D3B9E500D6B1B2 /* ImageSliderViewController.swift in Sources */,
 				9B79ACC529D3BAC600D6B1B2 /* ImageSliderView.swift in Sources */,
 				9B79ACB129D3B9E500D6B1B2 /* AppDelegate.swift in Sources */,
 				9B79ACC729D3D60400D6B1B2 /* MyScrollViewController.swift in Sources */,

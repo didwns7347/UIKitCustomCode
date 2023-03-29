@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ImageSliderViewController: UIViewController {
     //테스트용 이미지
     private let dummyURLs = [
         "https://is2-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/75/7d/c5/757dc535-c6a1-f01d-ec2f-39e73acc0bc2/6ab62f8a-f15f-4ece-8555-e2c70bf5e28d_ios_5.5_Ud615_01__Uba54_Uc778_opaque.png/392x696bb.png",
