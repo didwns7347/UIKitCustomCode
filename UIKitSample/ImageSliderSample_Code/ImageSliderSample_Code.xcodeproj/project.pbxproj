@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B54BA9129D9C4FE00C3746B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54BA9029D9C4FE00C3746B /* CollectionViewCell.swift */; };
 		9B79ACB129D3B9E500D6B1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */; };
 		9B79ACB329D3B9E500D6B1B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */; };
 		9B79ACB529D3B9E500D6B1B2 /* ImageSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB429D3B9E500D6B1B2 /* ImageSliderViewController.swift */; };
@@ -15,9 +16,11 @@
 		9B79ACC529D3BAC600D6B1B2 /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACC429D3BAC600D6B1B2 /* ImageSliderView.swift */; };
 		9B79ACC729D3D60400D6B1B2 /* MyScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */; };
 		9B79ACCA29D3FC4400D6B1B2 /* SelectUISampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */; };
+		9B79ACD029D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACCF29D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B54BA9029D9C4FE00C3746B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		9B79ACAD29D3B9E500D6B1B2 /* ImageSliderSample_Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSliderSample_Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		9B79ACC429D3BAC600D6B1B2 /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 		9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewController.swift; sourceTree = "<group>"; };
 		9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUISampleViewController.swift; sourceTree = "<group>"; };
+		9B79ACCF29D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +66,41 @@
 			children = (
 				9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */,
 				9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */,
-				9B79ACB429D3B9E500D6B1B2 /* ImageSliderViewController.swift */,
-				9B79ACC429D3BAC600D6B1B2 /* ImageSliderView.swift */,
+				9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */,
+				9B79ACCE29D4053500D6B1B2 /* ImageSliderCollectionView */,
+				9B79ACCD29D4052000D6B1B2 /* VerticalScrollView */,
+				9B79ACCC29D4050400D6B1B2 /* imageSliderScroll */,
 				9B79ACB929D3B9E500D6B1B2 /* Assets.xcassets */,
 				9B79ACBB29D3B9E500D6B1B2 /* LaunchScreen.storyboard */,
 				9B79ACBE29D3B9E500D6B1B2 /* Info.plist */,
-				9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */,
-				9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */,
 			);
 			path = ImageSliderSample_Code;
+			sourceTree = "<group>";
+		};
+		9B79ACCC29D4050400D6B1B2 /* imageSliderScroll */ = {
+			isa = PBXGroup;
+			children = (
+				9B79ACB429D3B9E500D6B1B2 /* ImageSliderViewController.swift */,
+				9B79ACC429D3BAC600D6B1B2 /* ImageSliderView.swift */,
+			);
+			path = imageSliderScroll;
+			sourceTree = "<group>";
+		};
+		9B79ACCD29D4052000D6B1B2 /* VerticalScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */,
+			);
+			path = VerticalScrollView;
+			sourceTree = "<group>";
+		};
+		9B79ACCE29D4053500D6B1B2 /* ImageSliderCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9B79ACCF29D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift */,
+				9B54BA9029D9C4FE00C3746B /* CollectionViewCell.swift */,
+			);
+			path = ImageSliderCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +175,11 @@
 			files = (
 				9B79ACCA29D3FC4400D6B1B2 /* SelectUISampleViewController.swift in Sources */,
 				9B79ACB529D3B9E500D6B1B2 /* ImageSliderViewController.swift in Sources */,
+				9B54BA9129D9C4FE00C3746B /* CollectionViewCell.swift in Sources */,
 				9B79ACC529D3BAC600D6B1B2 /* ImageSliderView.swift in Sources */,
 				9B79ACB129D3B9E500D6B1B2 /* AppDelegate.swift in Sources */,
 				9B79ACC729D3D60400D6B1B2 /* MyScrollViewController.swift in Sources */,
+				9B79ACD029D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift in Sources */,
 				9B79ACB329D3B9E500D6B1B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
