@@ -17,6 +17,8 @@
 		9B79ACC729D3D60400D6B1B2 /* MyScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */; };
 		9B79ACCA29D3FC4400D6B1B2 /* SelectUISampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */; };
 		9B79ACD029D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACCF29D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift */; };
+		9BDEEA5029E401A500F6189A /* CapturePreventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEEA4F29E401A500F6189A /* CapturePreventViewController.swift */; };
+		9BDEEA5229E4039900F6189A /* SecureImageView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEEA5129E4039900F6189A /* SecureImageView .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		9B79ACC629D3D60400D6B1B2 /* MyScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewController.swift; sourceTree = "<group>"; };
 		9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUISampleViewController.swift; sourceTree = "<group>"; };
 		9B79ACCF29D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderCollectionViewController.swift; sourceTree = "<group>"; };
+		9BDEEA4F29E401A500F6189A /* CapturePreventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePreventViewController.swift; sourceTree = "<group>"; };
+		9BDEEA5129E4039900F6189A /* SecureImageView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecureImageView .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 				9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */,
 				9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */,
 				9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */,
+				9BDEEA4E29E4018200F6189A /* 캡쳐방지뷰 */,
 				9B79ACCE29D4053500D6B1B2 /* ImageSliderCollectionView */,
 				9B79ACCD29D4052000D6B1B2 /* VerticalScrollView */,
 				9B79ACCC29D4050400D6B1B2 /* imageSliderScroll */,
@@ -101,6 +106,16 @@
 				9B54BA9029D9C4FE00C3746B /* CollectionViewCell.swift */,
 			);
 			path = ImageSliderCollectionView;
+			sourceTree = "<group>";
+		};
+		9BDEEA4E29E4018200F6189A /* 캡쳐방지뷰 */ = {
+			isa = PBXGroup;
+			children = (
+				9BDEEA4F29E401A500F6189A /* CapturePreventViewController.swift */,
+				9BDEEA5129E4039900F6189A /* SecureImageView .swift */,
+			);
+			name = "캡쳐방지뷰";
+			path = "캡쳐방지뷰";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +191,8 @@
 				9B79ACCA29D3FC4400D6B1B2 /* SelectUISampleViewController.swift in Sources */,
 				9B79ACB529D3B9E500D6B1B2 /* ImageSliderViewController.swift in Sources */,
 				9B54BA9129D9C4FE00C3746B /* CollectionViewCell.swift in Sources */,
+				9BDEEA5029E401A500F6189A /* CapturePreventViewController.swift in Sources */,
+				9BDEEA5229E4039900F6189A /* SecureImageView .swift in Sources */,
 				9B79ACC529D3BAC600D6B1B2 /* ImageSliderView.swift in Sources */,
 				9B79ACB129D3B9E500D6B1B2 /* AppDelegate.swift in Sources */,
 				9B79ACC729D3D60400D6B1B2 /* MyScrollViewController.swift in Sources */,

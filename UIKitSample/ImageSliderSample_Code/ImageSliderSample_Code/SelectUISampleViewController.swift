@@ -8,11 +8,12 @@
 import UIKit
 
 class SelectUISampleViewController: UIViewController {
-    let menus = ["버티컬 슬라이더뷰","이미지 슬라이더 스크롤뷰","호리젠탈 콜렉션 뷰"]
+    let menus = ["버티컬 슬라이더뷰","이미지 슬라이더 스크롤뷰","호리젠탈 콜렉션 뷰","캡쳐방지 이미지"]
     let viewConrollers : [UIViewController] = [
         MyScrollViewController(),
         ImageSliderViewController(),
-        ImageSdlierCollectionViewController()
+        ImageSdlierCollectionViewController(),
+        CapturePreventViewController()
     ]
     
     lazy var tableView : UITableView = {
