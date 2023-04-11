@@ -24,7 +24,8 @@ class CapturePreventViewController : UIViewController{
         ]
         NSLayoutConstraint.activate(cons)
         
-        imageView.url = "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/86/3a/87/863a87b0-5f65-449d-bb60-5dc9f96c690d/482253f1-b9b2-4e57-a7e0-b8e331bafe8f_ios_5.5_Ud615_10__Ub0b4_Ud3f0_Uc2dc_Uc138_opaque.png/392x696bb.png"
+//        imageView.url = "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/86/3a/87/863a87b0-5f65-449d-bb60-5dc9f96c690d/482253f1-b9b2-4e57-a7e0-b8e331bafe8f_ios_5.5_Ud615_10__Ub0b4_Ud3f0_Uc2dc_Uc138_opaque.png/392x696bb.png"
+        imageView.name = "SwiftUI"
     }
     
     

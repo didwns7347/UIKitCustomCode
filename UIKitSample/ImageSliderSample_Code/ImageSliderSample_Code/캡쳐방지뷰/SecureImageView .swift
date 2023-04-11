@@ -7,6 +7,22 @@
 
 import UIKit
 class SecureImageView: UIView {
+    var name: String = "" {
+        didSet{
+            DispatchQueue.main.async {
+                self.imageView.image = UIImage(named: self.name) ?? UIImage(systemName: "photo.artframe")
+       
+                let field = UITextField()
+                field.isSecureTextEntry = true
+                self.imageView.addSubview(field)
+
+                self.imageView.layer.superlayer?.addSublayer(field.layer)
+                field.layer.sublayers?.first?.addSublayer(self.imageView.layer)
+            }
+
+        }
+    }
+    
     @objc var url: String = "" {
         didSet {
             
@@ -21,12 +37,11 @@ class SecureImageView: UIView {
                     
                     //                let imageWidth = image!.size.width
                     //                let imageHeight = image!.size.height
-                    let imageWidth = self.bounds.width
-                    let imageHeight = self.bounds.height
+                    
                     let field = UITextField()
                     field.isSecureTextEntry = true
                     self.imageView.addSubview(field)
-                    
+
                     self.imageView.layer.superlayer?.addSublayer(field.layer)
                     field.layer.sublayers?.first?.addSublayer(self.imageView.layer)
                 }
@@ -63,5 +78,6 @@ class SecureImageView: UIView {
         ]
         
         NSLayoutConstraint.activate(cons)
+//        self.makeSecure()
     }
 }
