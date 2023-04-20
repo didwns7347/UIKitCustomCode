@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B51679D29F1103400956B20 /* ImagePropertyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51679C29F1103400956B20 /* ImagePropertyTestViewController.swift */; };
+		9B51679F29F12C1C00956B20 /* 실습정리.md in Resources */ = {isa = PBXBuildFile; fileRef = 9B51679E29F12C1C00956B20 /* 실습정리.md */; };
 		9B54BA9129D9C4FE00C3746B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54BA9029D9C4FE00C3746B /* CollectionViewCell.swift */; };
 		9B79ACB129D3B9E500D6B1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */; };
 		9B79ACB329D3B9E500D6B1B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		9B51679C29F1103400956B20 /* ImagePropertyTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePropertyTestViewController.swift; sourceTree = "<group>"; };
+		9B51679E29F12C1C00956B20 /* 실습정리.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "실습정리.md"; sourceTree = "<group>"; };
 		9B54BA9029D9C4FE00C3746B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		9B79ACAD29D3B9E500D6B1B2 /* ImageSliderSample_Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSliderSample_Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		9B51679B29F1100500956B20 /* 이미지 설정 */ = {
 			isa = PBXGroup;
 			children = (
+				9B51679E29F12C1C00956B20 /* 실습정리.md */,
 				9B51679C29F1103400956B20 /* ImagePropertyTestViewController.swift */,
 			);
 			name = "이미지 설정";
@@ -190,6 +193,7 @@
 			files = (
 				9B79ACBD29D3B9E500D6B1B2 /* LaunchScreen.storyboard in Resources */,
 				9B79ACBA29D3B9E500D6B1B2 /* Assets.xcassets in Resources */,
+				9B51679F29F12C1C00956B20 /* 실습정리.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
