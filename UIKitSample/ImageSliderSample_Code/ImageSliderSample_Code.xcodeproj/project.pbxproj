@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B51679D29F1103400956B20 /* ImagePropertyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B51679C29F1103400956B20 /* ImagePropertyTestViewController.swift */; };
 		9B54BA9129D9C4FE00C3746B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54BA9029D9C4FE00C3746B /* CollectionViewCell.swift */; };
 		9B79ACB129D3B9E500D6B1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */; };
 		9B79ACB329D3B9E500D6B1B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B51679C29F1103400956B20 /* ImagePropertyTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePropertyTestViewController.swift; sourceTree = "<group>"; };
 		9B54BA9029D9C4FE00C3746B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		9B79ACAD29D3B9E500D6B1B2 /* ImageSliderSample_Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSliderSample_Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B51679B29F1100500956B20 /* 이미지 설정 */ = {
+			isa = PBXGroup;
+			children = (
+				9B51679C29F1103400956B20 /* ImagePropertyTestViewController.swift */,
+			);
+			name = "이미지 설정";
+			path = "이미지 설정";
+			sourceTree = "<group>";
+		};
 		9B79ACA429D3B9E500D6B1B2 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +82,7 @@
 				9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */,
 				9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */,
 				9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */,
+				9B51679B29F1100500956B20 /* 이미지 설정 */,
 				9BDEEA4E29E4018200F6189A /* 캡쳐방지뷰 */,
 				9B79ACCE29D4053500D6B1B2 /* ImageSliderCollectionView */,
 				9B79ACCD29D4052000D6B1B2 /* VerticalScrollView */,
@@ -197,6 +209,7 @@
 				9B79ACB129D3B9E500D6B1B2 /* AppDelegate.swift in Sources */,
 				9B79ACC729D3D60400D6B1B2 /* MyScrollViewController.swift in Sources */,
 				9B79ACD029D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift in Sources */,
+				9B51679D29F1103400956B20 /* ImagePropertyTestViewController.swift in Sources */,
 				9B79ACB329D3B9E500D6B1B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
