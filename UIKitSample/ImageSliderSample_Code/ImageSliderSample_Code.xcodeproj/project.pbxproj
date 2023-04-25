@@ -21,6 +21,7 @@
 		9B79ACD029D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B79ACCF29D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift */; };
 		9BDEEA5029E401A500F6189A /* CapturePreventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEEA4F29E401A500F6189A /* CapturePreventViewController.swift */; };
 		9BDEEA5229E4039900F6189A /* SecureImageView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEEA5129E4039900F6189A /* SecureImageView .swift */; };
+		9BE93A1D29F7C08900909D35 /* TTSSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE93A1C29F7C08900909D35 /* TTSSampleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9B79ACCF29D4054E00D6B1B2 /* ImageSliderCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderCollectionViewController.swift; sourceTree = "<group>"; };
 		9BDEEA4F29E401A500F6189A /* CapturePreventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePreventViewController.swift; sourceTree = "<group>"; };
 		9BDEEA5129E4039900F6189A /* SecureImageView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecureImageView .swift"; sourceTree = "<group>"; };
+		9BE93A1C29F7C08900909D35 /* TTSSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSSampleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				9B79ACB029D3B9E500D6B1B2 /* AppDelegate.swift */,
 				9B79ACB229D3B9E500D6B1B2 /* SceneDelegate.swift */,
 				9B79ACC829D3FC4400D6B1B2 /* SelectUISampleViewController.swift */,
+				9BE93A1B29F7C07100909D35 /* TTS Sample */,
 				9B51679B29F1100500956B20 /* 이미지 설정 */,
 				9BDEEA4E29E4018200F6189A /* 캡쳐방지뷰 */,
 				9B79ACCE29D4053500D6B1B2 /* ImageSliderCollectionView */,
@@ -131,6 +134,14 @@
 			);
 			name = "캡쳐방지뷰";
 			path = "캡쳐방지뷰";
+			sourceTree = "<group>";
+		};
+		9BE93A1B29F7C07100909D35 /* TTS Sample */ = {
+			isa = PBXGroup;
+			children = (
+				9BE93A1C29F7C08900909D35 /* TTSSampleVC.swift */,
+			);
+			path = "TTS Sample";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 			files = (
 				9B79ACCA29D3FC4400D6B1B2 /* SelectUISampleViewController.swift in Sources */,
 				9B79ACB529D3B9E500D6B1B2 /* ImageSliderViewController.swift in Sources */,
+				9BE93A1D29F7C08900909D35 /* TTSSampleVC.swift in Sources */,
 				9B54BA9129D9C4FE00C3746B /* CollectionViewCell.swift in Sources */,
 				9BDEEA5029E401A500F6189A /* CapturePreventViewController.swift in Sources */,
 				9BDEEA5229E4039900F6189A /* SecureImageView .swift in Sources */,
